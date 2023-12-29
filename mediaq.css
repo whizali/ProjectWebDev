@@ -1,0 +1,163 @@
+@media (max-width:500px) {
+    .ri-menu-3-line{
+        display: block;
+    }
+    .c-nav{
+        display: none;
+    }
+    .r-nav{
+        display: none;
+    }
+
+
+    .l-nav{
+        font-size: 1.5rem;
+        font-size: 900;
+    }
+    nav{
+        justify-content: space-evenly;
+        gap: 15vw;
+    }
+    main{
+       flex-direction: column;
+    }
+    .land-page{
+        
+        flex-direction: column;
+    }
+    .left-div{
+        height: 90vh;
+        width: 100%;
+        align-items: center;
+        /* gap: 0vh; */
+        padding-left: 0vw;
+    }
+    .right-div{
+        width: 100%;
+    }
+    .left-div h1 {
+        margin-top: 9vh;
+        line-height: 10vh;
+        font-size: 20vw;
+    }
+    .left-div p {
+        width: 85vw;
+        font-size: 4vw;
+    }
+    .btn{
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .btn button {
+        font-size: 4vw;
+        padding: 5vw 15vw;
+        width: 100%;
+    }
+    .right-div{
+        width: 100%;
+        height: 30vh;
+    }
+
+    /* // page sedan */
+
+
+    .brand-box{
+        display: flex;
+        gap: 2vw;
+        align-items: center;
+        justify-content: space-between;
+        overflow: scroll;
+    }
+
+    #vintage .text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+    }
+    .divisions {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        align-items: center;
+        justify-content: space-between;
+        overflow: scroll;
+    }
+
+    .div1{
+        align-items: center;
+        justify-content: center;
+    }
+    .div1 .text{
+        /* background-color: aliceblue; */
+        display: flex;
+        width: 100vw;
+    }
+    .div1 p{
+        padding: 16px 16px;
+        display: none;
+    }
+    .div1:hover{
+        p{
+            display: block;
+        }
+    }
+
+    #hatchback{
+        background-position: center;
+    }
+
+
+    #book{
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+        width: 100%;
+        height: 160vh;
+        align-items: center;
+        padding: 0vh 2vh;
+    }
+
+    #book .div1{
+        /* background-color: red; */
+        height: 100vh;
+    }
+
+    .signup h2{
+        font-size: 4vh;
+        line-height: 5vh;
+    }
+    form {
+        display: flex;
+        width: 70vw;
+        flex-direction: column;
+        /* overflow: hidden; */
+    }
+
+     #book .div2 {
+        width: 90%;
+        justify-content: left;
+     }
+
+
+    #book .div2 .container{
+        /* background-color: rebeccapurple; */
+        display: flex;
+        flex-direction: row;
+        overflow: visible;
+    }
+
+    .container .column1 {
+        width: 100%;
+        height: 100%;
+
+    }
+    footer {
+        height: 55vh;
+    }
+    footer .below{
+        flex-direction: column; 
+        gap: 14px; 
+      }
+}
+

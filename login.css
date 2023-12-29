@@ -1,0 +1,142 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;900&display=swap');
+
+/* CSS boiler late */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', 'sans-serif';
+}
+
+nav{
+    background-color: red;
+}
+
+body{
+    background-color: #060802;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    -webkit-background-clip: border-box;
+    background-image: url(/assets/img/loginbg.gif);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+    align-items: center;
+}
+
+
+.text{
+    /* background-color: red; */
+    color:  white;
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+}
+
+.text h1{
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.text p{
+    font-size: 25px;
+    color: #adff2f;
+}
+
+form{
+    padding: 60px 40px;
+    border-radius: 75px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+    align-items: center;
+    justify-content: center;
+    background-color: #060802ad;
+    width: 40%;
+    transition: all ease-in-out 0.5s;
+}
+form:hover{
+    transform: scale(1.1);
+    
+}
+form h2, p{
+    color: white;
+}
+form p{
+    font-weight: 900;
+}
+
+.logins{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.logins a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    transition: all ease-in-out 0.3s;
+
+}
+
+a:hover{
+    color: #adff2f;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    transition: all ease-in-out 0.3s;
+}
+
+input:hover{
+    background-color: #adff2f;
+    color: #060802;
+}
+
+button{
+    background-color: greenyellow;
+    padding: 10px 40px;
+    border: none;
+    transition: all ease-in-out 0.4s;
+}
+
+button:hover{
+    background-color: #060802;
+    color: white;
+    transform: scale(0.9);
+}
+
+/* media queries  */
+
+@media (max-width:500px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    .text{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+        background-color: transparent;
+    }
+}
